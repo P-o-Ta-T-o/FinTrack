@@ -1,4 +1,4 @@
-import {SignedIn, SignedOut, SignInButton, SignUpButton, UserButton, SignUp} from '@clerk/clerk-react'
+import {SignedIn, SignedOut, SignInButton, SignUpButton, UserButton} from '@clerk/clerk-react'
 
 export const Auth = () => {
     return (
