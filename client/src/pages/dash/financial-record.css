@@ -1,0 +1,99 @@
+/* Centered container for the app */
+.dashboard-container {
+    width: 80%;
+  }
+  
+  /* General styling for headers within the app */
+  h1,
+  h2 {
+    color: #9b1b59;
+    text-align: center;
+  }
+  
+  /* Form and list container */
+  .form-container,
+  .list-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Common class for all buttons */
+  .button {
+    background-color: #fe742f;
+    color: #000000;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #2fcefe;
+  }
+  .button-delete {
+    background-color: #2fcefe;
+    color: #000000;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button-delete:hover {
+    background-color: #d5fe2f;
+  }
+  
+  /* Common class for all input fields and selects */
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #f80000;
+  }
+  
+  /* Labels for better readability */
+  label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .table-container {
+    margin: 20px;
+    overflow-x: auto; /* Enables horizontal scrolling if the table is too wide */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    border: 1px solid #000000; /* Light grey border for cells */
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #ff4444; /* Darker blue header background */
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #ffc1c1; /* Zebra striping for rows, light grey */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #dc7070; /* Light blue hover effect for rows */
+  }

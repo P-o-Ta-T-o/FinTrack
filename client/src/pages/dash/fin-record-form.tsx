@@ -37,12 +37,7 @@ export const FinRecordForm = () => {
             <form onSubmit={handleSubmit}>
                 <div className="form-field">
                     <label>Description:</label>
-                    <input 
-                        type="text" 
-                        required className="input" 
-                        value={description} 
-                        onChange={(e) => setDescription(e.target.value)}
-                    />
+                    <input type="text" required className="input" value={description} onChange={(e) => setDescription(e.target.value)}/>
                 </div>
                 <div className="form-field">
                     <label>Amount:</label>

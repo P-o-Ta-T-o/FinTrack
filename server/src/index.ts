@@ -20,5 +20,5 @@ mongoose.connect(mongoURI).then(() => console.log("MONGODB CONNECTION ESTABLISHE
 app.use("/financial-records", financialRecordRouter);
 
 app.listen(port, () => {
-    console.log(`Server runningon port ${port}`);
+    console.log(`Server running on port ${port}`);
 });

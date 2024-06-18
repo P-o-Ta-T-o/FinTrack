@@ -18,9 +18,9 @@ const financialRecordSchema = new mongoose.Schema<FinancialRecord>({
     paymentMode: {type: String, required: true},
 });
 
-const financialRecordModel = mongoose.model<FinancialRecord>(
+const FinancialRecordModel = mongoose.model<FinancialRecord>(
     "FinancialRecord",
     financialRecordSchema
 );
 
-export default financialRecordModel;
+export default FinancialRecordModel;
