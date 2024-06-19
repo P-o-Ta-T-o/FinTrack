@@ -2,6 +2,9 @@
 Building a personal finance tracker app using MERN stack, covering user authentication, database integration, and 
 best practices for scalable React applications, with detailed code explanations and a complete backend setup using MongoDB.
 
+## Loom demo video link: 
+https://www.loom.com/share/5207e863a9224e07b70c884288bcd238?sid=1265fdba-afda-4091-9308-cb00078fe95b
+
 ## Tools used:
 1. Backend: Utilized Node.js and Express.js. Mongoose used for MongoDB object modeling.
 2. Frontend: Built with React, employing React Hooks and Context API for state management.
@@ -21,3 +24,4 @@ Users can add expenses or income, view their monthly total, and edit or delete e
 -  Defining schema and models in Mongoose ensures data consistency and clarity.
 -  Implementing financial record form and list components enables user input and data display.
 -  Utilising Express for the backend server provides a solid foundation for API development.
+
